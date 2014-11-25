@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NuevaNotaActivity" >
+
+    <TextView
+        android:id="@+id/lblTexto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="Introduzca un texto"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtNota"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduzca el texto aqui..."
+        android:lines="5"
+        android:maxLines="5"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:padding="10dp"
+        android:text="Añadir" />
+
+</LinearLayout>
